@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 import tensorflow as tf
 
-st.set_page_config(page_title="Clasificador de Reciclaje", page_icon="♻️")
+st.set_page_config(page_title="Modelo predictivo de reciclaje clase de IA-ISC-campus Comayagua-2026-Hector Fortín", page_icon="♻️")
 
 IMG_SIZE = (224, 224)
 preprocess_input = tf.keras.applications.mobilenet_v2.preprocess_input
